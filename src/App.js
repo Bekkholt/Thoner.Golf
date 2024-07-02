@@ -1,6 +1,6 @@
 import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <header className="App-header">
       <h1 className="text-3xl	text-center text-slate-50	">
@@ -9,6 +9,4 @@ function App() {
     </header>
   );
 }
-
-export default App;
 
