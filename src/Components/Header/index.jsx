@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <S.Wrapper>
       <S.Header>
-        <h1 className="bebas-neue-regular text-color text-4xl px-5">
+        <h1 className="bebas-neue-regular text-color text-4xl px-14">
           thoner.golf
         </h1>
         <S.Pages>
