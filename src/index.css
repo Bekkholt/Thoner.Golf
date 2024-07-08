@@ -22,7 +22,14 @@ code {
   font-style: normal;
 }
 
-.logo-color {
+.jura-text {
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text-color {
   color: #dfe9f2;
 }
 

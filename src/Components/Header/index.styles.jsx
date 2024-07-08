@@ -17,5 +17,10 @@ export const Header = styled.div`
   width: 100%;
   height: 88px;
   z-index: 10;
-  box-shadow: 0 -6px 10px 10px rgba(0, 0, 0, 10);
+  box-shadow: 0 -10px 10px 10px rgba(0, 0, 0, 2);
+`;
+
+export const Pages = styled.div`
+  display: flex;
+  flex-direction: ;
 `;
