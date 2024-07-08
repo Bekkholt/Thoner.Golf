@@ -29,6 +29,13 @@ code {
   font-style: normal;
 }
 
+.karla-text {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .text-color {
   color: #dfe9f2;
 }

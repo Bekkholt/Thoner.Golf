@@ -5,3 +5,7 @@ export const Pagewrapper = styled.div`
   display: flex;
   flex-direction: column;
 `;
+
+export const Body = styled.main`
+  flex-grow: 1;
+`;
