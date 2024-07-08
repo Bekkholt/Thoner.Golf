@@ -9,6 +9,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  background: url("./Images/IMG_3112-1.JPEG") no-repeat fixed;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: color-burn;
+  background-color: #17262594;
+  position: sticky;
 }
 
 code {
