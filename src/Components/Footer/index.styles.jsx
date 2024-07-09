@@ -6,8 +6,8 @@ export const Footer = styled.div`
   align-items: center;
   justify-content: space-between;
   min-height: 10vh;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
   padding-top: 0.5%;
   margin-top: 2%;
   width: 100%;
