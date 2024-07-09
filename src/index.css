@@ -13,8 +13,8 @@ body {
   background: url("./Images/IMG_3112-1.JPEG") no-repeat fixed;
   background-position: center;
   background-size: cover;
-  background-blend-mode: color-burn;
-  background-color: #17262594;
+  background-blend-mode: hue;
+  background-color: #131313ad;
   position: sticky;
 }
 
