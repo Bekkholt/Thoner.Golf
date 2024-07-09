@@ -12,13 +12,17 @@ export default function Header() {
         </Link>
         <S.Pages>
           <Link to="../../Pages/Om">
-            <p className="jura-text text-color px-2 text-l">Om</p>
+            <p className="jura-text text-color px-2 text-l hover:text-slate-400">
+              Om
+            </p>
           </Link>
           <Link to="../../Pages/FAQ">
-            <p className="jura-text text-color px-2 text-l">FAQ</p>
+            <p className="jura-text text-color px-2 text-l hover:text-slate-400">
+              FAQ
+            </p>
           </Link>
           <Link to="../../Pages/Timer og priser">
-            <p className="jura-text text-color pl-2 pr-4 text-l">
+            <p className="jura-text text-color pl-2 pr-4 text-l hover:text-slate-400">
               Timer og priser
             </p>
           </Link>
