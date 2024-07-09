@@ -5,7 +5,7 @@ export default function Hjem() {
   return (
     <div>
       <S.MiddleContent>
-        <p className="jura-text text-color text-4xl pb-5">
+        <p className="jura-text text-color text-4xl pb-5 px-5 text-center">
           En liten setning om Heidi og hvem Heidi egentlig er!
         </p>
         <button
