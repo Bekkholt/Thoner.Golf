@@ -1,4 +1,5 @@
 import * as S from "./index.styles";
+import PGA from "../../Images/Logo_CMYK_PGA_of_Norway.jpg";
 
 export default function Hjem() {
   return (
@@ -9,8 +10,7 @@ export default function Hjem() {
         </p>
         <button
           type="button"
-          className="karla-text text-color bg-lime-900 hover:bg-lime-950 font-medium rounded-lg text-lg px-5 py-2.5 me-2 
-drop-shadow-2xl"
+          className="karla-text text-color bg-lime-900 hover:bg-lime-950 font-medium rounded-lg text-lg px-5 py-2.5 me-2 drop-shadow-2xl"
         >
           Bestill time
         </button>
@@ -21,8 +21,10 @@ drop-shadow-2xl"
         </h1>
         <img
           alt="PGA logo"
-          href="../../Images/Logo_CMYK_PGA_of_Norway.jpg"
+          src={PGA}
           className="px-3"
+          height={65}
+          width={65}
         ></img>
       </S.BottomContent>
     </div>
