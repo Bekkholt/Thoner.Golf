@@ -10,8 +10,8 @@ export default function Footer() {
         <InstagramIcon />
       </S.Icons>
       <div>
-        <p className="karla-text text-color pl-11">Kontakt:</p>
-        <p className="karla-text text-color">+47 123456789</p>
+        <p className="karla-text text-color pl-9 text-sm">Kontakt:</p>
+        <p className="karla-text text-color text-sm">+47 123456789</p>
       </div>
     </S.Footer>
   );
