@@ -10,12 +10,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
-  background: url("./Images/IMG_3112-1.JPEG") no-repeat fixed;
-  background-position: center;
-  background-size: cover;
-  background-blend-mode: hue;
-  background-color: #131313ad;
-  position: sticky;
+  background-color: #1f1f1f;
 }
 
 code {
@@ -47,3 +42,12 @@ code {
   color: #dfe9f2;
 }
 
+.home-background {
+  height: 100vh;
+  background: url("./Images/IMG_3112-1.JPEG") no-repeat fixed;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: hue;
+  background-color: #131313ad;
+  position: sticky;
+}

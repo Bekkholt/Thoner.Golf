@@ -8,8 +8,6 @@ export const Footer = styled.div`
   min-height: 10vh;
   padding-left: 2%;
   padding-right: 2%;
-  padding-top: 0.5%;
-  margin-top: 2%;
   width: 100%;
   box-shadow: -10px -10px 10px -10px rgba(0, 0, 0, 1);
 `;

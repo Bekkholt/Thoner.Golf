@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function Hjem() {
   return (
-    <div>
+    <div className="home-background">
       <S.MiddleContent>
         <p className="jura-text text-color text-4xl pb-5 px-5 text-center">
           En liten setning om Heidi og hvem Heidi egentlig er!

@@ -14,10 +14,10 @@ export default function Layout() {
       <Header />
       <Routes>
         <Route index element={<Hjem />} />
-        <Route path="../../Pages/Om" element={<Om />} />
-        <Route path="../../Pages/FAQ" element={<FAQ />} />
-        <Route path="../../Pages/TimerOgPriser" element={<TimerOgPriser />} />
-        <Route path="../../Pages/BestillTime" element={<BestillTime />} />
+        <Route path="/Pages/Om" element={<Om />} />
+        <Route path="/Pages/FAQ" element={<FAQ />} />
+        <Route path="/Pages/TimerOgPriser" element={<TimerOgPriser />} />
+        <Route path="/Pages/BestillTime" element={<BestillTime />} />
       </Routes>
       <S.Body />
       <Footer />
