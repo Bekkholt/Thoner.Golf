@@ -6,7 +6,7 @@ export default function Header() {
     <S.Wrapper>
       <S.Header>
         <Link to="/">
-          <h1 className="bebas-neue-regular text-color text-4xl pl-2 pr-3">
+          <h1 className="bebas-neue-regular text-color text-3xl pl-2 pr-3">
             thoner.golf
           </h1>
         </Link>

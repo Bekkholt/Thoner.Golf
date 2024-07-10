@@ -19,7 +19,7 @@ export default function Hjem() {
         </Link>
       </S.MiddleContent>
       <S.BottomContent>
-        <h1 className="bebas-neue-regular text-color text-4xl px-3">
+        <h1 className="bebas-neue-regular text-color text-3xl px-3">
           thoner.golf
         </h1>
         <img
