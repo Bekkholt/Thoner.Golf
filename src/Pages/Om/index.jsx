@@ -9,16 +9,16 @@ export default function Om() {
       <S.TextContent>
         <h1 className="text-color jura-text text-2xl pb-5">Om</h1>
         <div>
-          <p className="text-color karla-text text-l w-2/4 pb-2">
+          <p className="text-color karla-text text-l sm:w-32 md:w-2/4 lg:w-2/4 pb-2 px-1">
             Et par avsnitt her om hvem Heidi er og hva Heidi gjør og kan tilby
             av ditt og datt.
           </p>
-          <p className="text-color karla-text text-l w-2/4">
+          <p className="text-color karla-text text-l sm:w-32 md:w-2/4 lg:w-2/4 px-1">
             Et par avsnitt her om hvem Heidi er og hva Heidi gjør og kan tilby
             av ditt og datt.
           </p>
           <S.PGA>
-            <h1 className="bebas-neue-regular text-color text-3xl px-1">
+            <h1 className="bebas-neue-regular text-color text-3xl">
               thoner.golf
             </h1>
             <img
