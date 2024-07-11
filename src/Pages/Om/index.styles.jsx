@@ -3,7 +3,9 @@ import styled from "styled-components";
 export const OuterDiv = styled.div`
   display: flex;
   justify-content: center;
-  padding: 10vh;
+  padding-top: 10vh;
+  padding-left: 10px;
+  padding-right: 10px;
 `;
 
 export const TextContent = styled.div`
@@ -21,5 +23,5 @@ export const PGA = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding-top: 5vh;
+  padding-top: 10%;
 `;

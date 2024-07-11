@@ -18,7 +18,7 @@ export default function Om() {
             av ditt og datt.
           </p>
           <S.PGA>
-            <h1 className="bebas-neue-regular text-color text-3xl px-3">
+            <h1 className="bebas-neue-regular text-color text-3xl px-1">
               thoner.golf
             </h1>
             <img
@@ -35,11 +35,17 @@ export default function Om() {
         <img
           alt="Heidi1"
           src={Heidi1}
-          className="pb-5"
-          height={200}
-          width={200}
+          className="pb-5 sm:w-32 md:w-32 lg:w-48"
+          // height={200}
+          // width={200}
         ></img>
-        <img alt="Heidi2" src={Heidi2} height={200} width={200}></img>
+        <img
+          alt="Heidi2"
+          src={Heidi2}
+          className="sm:w-32 md:w-32 lg:w-48"
+          // height={200}
+          // width={200}
+        ></img>
       </S.ImageContent>
     </S.OuterDiv>
   );
