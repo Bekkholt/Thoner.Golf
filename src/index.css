@@ -38,6 +38,13 @@ code {
   font-style: normal;
 }
 
+.karla-text-bold {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 750;
+  font-style: italic;
+}
+
 .text-color {
   color: #dfe9f2;
 }
