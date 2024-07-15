@@ -27,7 +27,7 @@ export default function TimerOgPriser() {
         </div>
       </S.TextContent>
       <S.ButtonDiv>
-        <Link to="../Bestill time">
+        <Link to="/Pages/BestillTime">
           <button
             type="button"
             className="karla-text text-color bg-lime-900 hover:bg-lime-950 font-medium rounded-lg text-lg px-5 py-2.5 me-2 drop-shadow-2xl"

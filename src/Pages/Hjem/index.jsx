@@ -9,7 +9,7 @@ export default function Hjem() {
         <p className="jura-text text-color text-4xl pb-5 px-5 text-center">
           En liten setning om Heidi og hvem Heidi egentlig er!
         </p>
-        <Link to="../Bestill time">
+        <Link to="/Pages/BestillTime">
           <button
             type="button"
             className="karla-text text-color bg-lime-900 hover:bg-lime-950 font-medium rounded-lg text-lg px-5 py-2.5 me-2 drop-shadow-2xl"
