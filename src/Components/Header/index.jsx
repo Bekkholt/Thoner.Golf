@@ -21,7 +21,7 @@ export default function Header() {
               FAQ
             </p>
           </Link>
-          <Link to="../../Pages/Timer og priser">
+          <Link to="../../Pages/TimerOgPriser">
             <p className="jura-text text-color pl-2 pr-4 text-l hover:text-slate-400">
               Timer og priser
             </p>

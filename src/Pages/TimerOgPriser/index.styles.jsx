@@ -14,7 +14,8 @@ export const TextContent = styled.div`
   width: 40%;
 `;
 
-export const ImageDiv = styled.div`
+export const ButtonDiv = styled.div`
   display: flex;
   justify-content: center;
+  padding-top: 2%;
 `;
