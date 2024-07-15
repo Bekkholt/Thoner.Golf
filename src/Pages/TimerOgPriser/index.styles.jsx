@@ -11,7 +11,6 @@ export const OuterDiv = styled.div`
 export const TextContent = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
   width: 50%;
 `;
 
