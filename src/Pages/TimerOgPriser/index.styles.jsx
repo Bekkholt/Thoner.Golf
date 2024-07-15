@@ -11,11 +11,13 @@ export const OuterDiv = styled.div`
 export const TextContent = styled.div`
   display: flex;
   flex-direction: column;
-  width: 40%;
+  align-items: center;
+  width: 50%;
 `;
 
 export const ButtonDiv = styled.div`
   display: flex;
   justify-content: center;
   padding-top: 2%;
+  padding-bottom: 5%;
 `;
