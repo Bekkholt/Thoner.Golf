@@ -31,52 +31,51 @@ export default function BestillTime() {
     resolver: yupResolver(schema),
   });
 
-  function handleSubmit(e) {
-    e.preventDefault();
+  // function handleSubmit(e) {
+  //   e.preventDefault();
 
-    const formData = {
-      navn: e.target.navn.value,
-      epost: e.target.epost.value,
-      mobilnummer: e.target.mobilnummer.value,
-      time: e.target.time.value,
-      hovedfokus: e.target.hovedfokus.value,
-      annet: e.target.annet.value,
-    };
+  //   const formData = {
+  //     navn: e.target.navn.value,
+  //     epost: e.target.epost.value,
+  //     mobilnummer: e.target.mobilnummer.value,
+  //     time: e.target.time.value,
+  //     hovedfokus: e.target.hovedfokus.value,
+  //     annet: e.target.annet.value,
+  //   };
 
-    try {
-      const errors = schema.validate(formData);
-      console.log({ errors });
+  //   try {
+  //     const errors = schema.validate(formData);
+  //     console.log({ errors });
 
-      const Details = {
-        navn: formData.navn,
-        epost: formData.epost,
-        mobilnummer: formData.mobilnummer,
-        time: formData.time,
-        hovedfokus: formData.hovedfokus,
-        annet: formData.annet,
-      };
+  //     const Details = {
+  //       navn: formData.navn,
+  //       epost: formData.epost,
+  //       mobilnummer: formData.mobilnummer,
+  //       time: formData.time,
+  //       hovedfokus: formData.hovedfokus,
+  //       annet: formData.annet,
+  //     };
 
-      console.log(JSON.stringify(Details));
+  //     console.log(JSON.stringify(Details));
 
-      // const data = {
-      //   method: "POST",
-      //   headers: {
-      //     "Content-type": "application/json",
-      //   },
-      //   body: JSON.stringify(formData),
-      // };
-      // const response = await fetch(URL, data);
-      // const json = await response.json();
-      // console.log(json);
-      // if () {
-      //   alert(`OK`);
-      // } else {
-      //   alert(`Something went wrong. Statuscode: ` + errors.PromiseState);
-      // }
-    } catch (e) {
-      // alert(e.errors.join("\n"));
-    }
-  }
+  //     // const data = {
+  //     //   method: "POST",
+  //     //   headers: {
+  //     //     "Content-type": "application/json",
+  //     //   },
+  //     //   body: JSON.stringify(formData),
+  //     // };
+  //     // const response = await fetch(URL, data);
+  //     // const json = await response.json();
+  //     // console.log(json);
+  //     // if () {
+  //     //   alert(`OK`);
+  //     // } else {
+  //     //   alert(`Something went wrong. Statuscode: ` + errors.PromiseState);
+  //     // }
+  //   } catch (e) {
+  //     // alert(e.errors.join("\n"));
+  //   }
 
   return (
     <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
@@ -88,7 +87,6 @@ export default function BestillTime() {
         action="https://formsubmit.co/h_thoner@hotmail.com"
         method="POST"
         className="space-y-8"
-        onSubmit={handleSubmit}
       >
         <div>
           <label for="fullt navn" className="text-color karla-text-bold">
@@ -178,6 +176,7 @@ export default function BestillTime() {
           ></textarea>
         </div>
         <S.ButtonDiv>
+          <input type="hidden" name="_template" value="table"></input>
           <button
             type="submit"
             className="karla-text text-color bg-lime-900 hover:bg-lime-950 font-medium rounded-lg text-lg px-5 py-2.5 me-2 drop-shadow-2xl"
