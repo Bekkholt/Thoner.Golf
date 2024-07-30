@@ -85,7 +85,7 @@ export default function BestillTime() {
         Eventuelt skriv inn noe info her om hva som skal med.
       </p>
       <form
-        action="https://formsubmit.co/tina.bekkholt@hotmail.com"
+        action="https://formsubmit.co/h_thoner@hotmail.com"
         method="POST"
         className="space-y-8"
         onSubmit={handleSubmit}
