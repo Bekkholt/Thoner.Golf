@@ -8,6 +8,8 @@
 - Bootstrap Icons
 - React Router
 - Styled Components
+- Yup
+- React Hook Form
 
 # License
 
