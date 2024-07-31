@@ -14,7 +14,13 @@ export default function Footer() {
         </a>
       </S.Icons>
       <div>
-        <p className="karla-text text-color pl-9 text-sm">Kontakt:</p>
+        <p className="karla-text text-color text-sm">Nettside fra:</p>
+        <a href="https://bekkholt-portfolio.netlify.app/">
+          <p className="mono-text text-color text-sm">Bekkholt</p>
+        </a>
+      </div>
+      <div>
+        <p className="karla-text text-color text-sm">Kontakt:</p>
         <p className="karla-text text-color text-sm">+47 123456789</p>
       </div>
     </S.Footer>
