@@ -17,7 +17,7 @@ export const TextContent = styled.div`
 export const ImageContent = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   padding-bottom: 10%;
 `;
 
