@@ -23,5 +23,5 @@ export const PGA = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding-top: 20%;
+  padding-top: 10%;
 `;
