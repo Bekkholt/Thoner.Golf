@@ -21,7 +21,12 @@ export default function Footer() {
       </div>
       <div>
         <p className="karla-text text-color text-sm">Kontakt:</p>
-        <p className="karla-text text-color text-sm">+47 123456789</p>
+        <a
+          className="karla-text text-color text-sm"
+          href="mailto:h_thoner@hotmail.com"
+        >
+          h_thoner@hotmail.com
+        </a>
       </div>
     </S.Footer>
   );
