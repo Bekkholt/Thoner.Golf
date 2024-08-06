@@ -31,52 +31,6 @@ export default function BestillTime() {
     resolver: yupResolver(schema),
   });
 
-  // function handleSubmit(e) {
-  //   e.preventDefault();
-
-  //   const formData = {
-  //     navn: e.target.navn.value,
-  //     epost: e.target.epost.value,
-  //     mobilnummer: e.target.mobilnummer.value,
-  //     time: e.target.time.value,
-  //     hovedfokus: e.target.hovedfokus.value,
-  //     annet: e.target.annet.value,
-  //   };
-
-  //   try {
-  //     const errors = schema.validate(formData);
-  //     console.log({ errors });
-
-  //     const Details = {
-  //       navn: formData.navn,
-  //       epost: formData.epost,
-  //       mobilnummer: formData.mobilnummer,
-  //       time: formData.time,
-  //       hovedfokus: formData.hovedfokus,
-  //       annet: formData.annet,
-  //     };
-
-  //     console.log(JSON.stringify(Details));
-
-  //     // const data = {
-  //     //   method: "POST",
-  //     //   headers: {
-  //     //     "Content-type": "application/json",
-  //     //   },
-  //     //   body: JSON.stringify(formData),
-  //     // };
-  //     // const response = await fetch(URL, data);
-  //     // const json = await response.json();
-  //     // console.log(json);
-  //     // if () {
-  //     //   alert(`OK`);
-  //     // } else {
-  //     //   alert(`Something went wrong. Statuscode: ` + errors.PromiseState);
-  //     // }
-  //   } catch (e) {
-  //     // alert(e.errors.join("\n"));
-  //   }
-
   return (
     <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
       <h2 className="text-color jura-text text-2xl pb-8">Bestill time</h2>
@@ -142,10 +96,10 @@ export default function BestillTime() {
             className="karla-text block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
             {...register("time")}
           >
-            <option>Type 1</option>
-            <option>Type 2</option>
-            <option>Type 3</option>
-            <option>Type 4</option>
+            <option>Leksjon 25 minutter</option>
+            <option>Leksjon 50 minutter</option>
+            <option>Leksjon på bane, 9 hull</option>
+            <option>Treningsgruppe for damer</option>
           </select>
         </div>
         <div>
