@@ -33,8 +33,8 @@ export default function BestillTime() {
 
   return (
     <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-      <h2 className="text-color jura-text text-2xl pb-8">Bestill time</h2>
-      <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
+      <h2 className="text-color jura-text text-2xl">Bestill time</h2>
+      <p className="invisible font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
         Eventuelt skriv inn noe info her om hva som skal med.
       </p>
       <form
