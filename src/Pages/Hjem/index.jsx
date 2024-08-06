@@ -6,8 +6,11 @@ export default function Hjem() {
   return (
     <div className="home-background">
       <S.MiddleContent>
+        <p className="jura-text text-color text-4xl px-5 text-center">
+          Føles svingen lei, eller går ballen feil vei?
+        </p>
         <p className="jura-text text-color text-4xl pb-5 px-5 text-center">
-          En liten setning om Heidi og hvem Heidi egentlig er!
+          Book en time, så finner vi en løsning!
         </p>
         <Link to="/Pages/BestillTime">
           <button
