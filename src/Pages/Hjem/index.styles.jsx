@@ -11,5 +11,5 @@ export const BottomContent = styled.div`
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding-top: 30vh;
+  padding-top: 25vh;
 `;

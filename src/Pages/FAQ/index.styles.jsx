@@ -11,7 +11,7 @@ export const OuterDiv = styled.div`
 export const TextContent = styled.div`
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 65%;
 `;
 
 export const ImageDiv = styled.div`

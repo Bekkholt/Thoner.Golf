@@ -46,15 +46,15 @@ export default function Om() {
           alt="Heidi1"
           src={Heidi1}
           className="pb-5 sm:w-32 md:w-32 lg:w-48"
-          // height={200}
-          // width={200}
+          height={200}
+          width={200}
         ></img>
         <img
           alt="Heidi2"
           src={Heidi2}
           className="sm:w-32 md:w-32 lg:w-48"
-          // height={200}
-          // width={200}
+          height={200}
+          width={200}
         ></img>
       </S.ImageContent>
     </S.OuterDiv>

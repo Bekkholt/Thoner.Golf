@@ -11,12 +11,14 @@ export const OuterDiv = styled.div`
 export const TextContent = styled.div`
   display: flex;
   flex-direction: column;
+  width: 50%;
 `;
 
 export const ImageContent = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-bottom: 10%;
 `;
 
 export const PGA = styled.div`
@@ -24,4 +26,5 @@ export const PGA = styled.div`
   justify-content: flex-start;
   align-items: center;
   padding-top: 10%;
+  padding-bottom: 10%;
 `;

@@ -36,7 +36,7 @@ export default function TimerOgPriser() {
             Treningsgruppe for damer: 100 kr per trening, eller klippekort 10
             treninger for 800 kr
           </h2>
-          <p className="text-color karla-text text-l w-50 px-5">
+          <p className="text-color karla-text text-l w-50 pb-5 px-5">
             Påmelding skjer gjennom gruppen i SPOND-appen: Kode LHPPC
           </p>
         </div>
