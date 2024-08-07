@@ -25,7 +25,7 @@ export default function TimerOgPriser() {
             mer tid enn ved en 25 minutters leksjon.
           </p>
           <h2 className="text-color karla-text-bold pl-5">
-            Leksjon på bane, 9 hull: 1300 kr
+            Leksjon på bane, 9 hull: 1100 kr
           </h2>
           <p className="text-color karla-text text-l w-50 pb-5 px-5">
             Dette er en leksjon der jeg blir med deg ut på banen, og bidra med
