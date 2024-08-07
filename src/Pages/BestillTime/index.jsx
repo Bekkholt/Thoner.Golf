@@ -99,7 +99,6 @@ export default function BestillTime() {
             <option>Leksjon 25 minutter</option>
             <option>Leksjon 50 minutter</option>
             <option>Leksjon på bane, 9 hull</option>
-            <option>Treningsgruppe for damer</option>
           </select>
         </div>
         <div>
