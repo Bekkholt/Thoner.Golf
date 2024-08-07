@@ -1,5 +1,7 @@
 # www.thoner.golf
 
+![image](/src/Images/Screenshot%202024-08-07%20105120.jpg)
+
 # Description
 
 thoner.golf is a website for the Norwegian golfer and golf trainer Heidi Thoner. The site displays information about Heidi Thoner, some additional golf information/Q&A and a booking scheme to book lessons with Heidi.
