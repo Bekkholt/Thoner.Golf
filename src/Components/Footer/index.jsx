@@ -15,7 +15,7 @@ export default function Footer() {
       </S.Icons>
       <div>
         <p className="karla-text text-color text-sm">Nettside fra:</p>
-        <a href="https://bekkholt-portfolio.netlify.app/">
+        <a href="https://www.bekkholt.no/">
           <p className="mono-text text-color text-sm">Bekkholt</p>
         </a>
       </div>
